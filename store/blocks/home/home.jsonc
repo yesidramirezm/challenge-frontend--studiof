@@ -1,0 +1,24 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#container-home"
+    ]
+  },
+ "flex-layout.row#container-home": {
+   "children": ["flex-layout.col#container-home"],
+   "props": {
+     
+   }
+ },
+ "flex-layout.col#container-home": {
+   "children": [
+    "banner-promo",
+     "list-context.image-list#principales",
+     "tab-layout#generos"
+   ],
+   "props": {
+     
+   }
+ }
+  
+}

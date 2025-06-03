@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#lapidas-mujer": {
+    "children": [
+      "stack-layout#zapatos",
+      "stack-layout#pantalones",
+      "stack-layout#camisas"
+    ],
+    "props": {}
+  },
+  "stack-layout#zapatos": {
+    "children": ["image#zapatos", "link#zapatos"]
+  },
+  "image#zapatos": {
+    "props": {
+      "src": "assets/zapatos.png"
+    }
+  },
+  "link#zapatos": {
+    "props": {
+      "href": "#",
+      "label": "ZAPATOS"
+    }
+  },
+  "stack-layout#pantalones": {
+    "children": ["image#pantalones", "link#pantalones"]
+  },
+  "image#pantalones": {
+    "props": {
+      "src": "assets/pantalones.png"
+    }
+  },
+  "link#pantalones": {
+    "props": {
+      "href": "#",
+      "label": "PANTALONES"
+    }
+  },
+  "stack-layout#camisas": {
+    "children": ["image#camisas", "link#camisas"]
+  },
+  "image#camisas": {
+    "props": {
+      "src": "assets/camisas.png"
+    }
+  },
+  "link#camisas": {
+    "props": {
+      "href": "#",
+      "label": "CAMISAS"
+    }
+  }
+}

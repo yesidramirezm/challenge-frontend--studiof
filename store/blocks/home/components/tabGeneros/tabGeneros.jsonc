@@ -1,0 +1,46 @@
+{
+  "tab-layout#generos": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "hombre"
+    }
+  },
+  "tab-list#home": {
+    "children": ["tab-list.item#hombre", "tab-list.item#mujer"]
+  },
+  "tab-list.item#hombre": {
+    "props": {
+      "tabId": "hombre",
+      "label": "Hombre",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#mujer": {
+    "props": {
+      "tabId": "mujer",
+      "label": "Mujer"
+    }
+  },
+  "tab-content#home": {
+    "children": ["tab-content.item#hombre", "tab-content.item#mujer"]
+  },
+  "tab-content.item#hombre": {
+    "children": [
+      "flex-layout.row#lapidas-hombre",
+      "list-context.image-list#secundarios-hombre"
+    ],
+    "props": {
+      "tabId": "hombre"
+    }
+  },
+  "tab-content.item#mujer": {
+    "children": [
+      "flex-layout.row#lapidas-mujer",
+      "list-context.image-list#secundarios"
+    ],
+    "props": {
+      "tabId": "mujer"
+    }
+  }
+}

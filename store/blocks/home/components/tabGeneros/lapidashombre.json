@@ -1,0 +1,54 @@
+{
+
+  "flex-layout.row#lapidas-hombre": {
+    "children": [
+      "stack-layout#zapatos-hombre",
+      "stack-layout#pantalones-hombre",
+      "stack-layout#camisas-hombre"
+    ],
+    "props": {}
+  },
+  "stack-layout#zapatos-hombre": {
+    "children": ["image#zapatos-hombre", "link#zapatos-hombre"]
+  },
+  "image#zapatos-hombre": {
+    "props": {
+      "src": "assets/zapatos-hombre.png"
+    }
+  },
+  "link#zapatos-hombre": {
+    "props": {
+      "href": "#",
+      "label": "ZAPATOS"
+    }
+  },
+  "stack-layout#pantalones-hombre": {
+    "children": ["image#pantalones-hombre", "link#pantalones-hombre"]
+  },
+  "image#pantalones-hombre": {
+    "props": {
+      "src": "assets/pantalones-hombre.png"
+    }
+  },
+  "link#pantalones-hombre": {
+    "props": {
+      "href": "#",
+      "label": "PANTALONES"
+    }
+  },
+  "stack-layout#camisas-hombre": {
+    "children": ["image#camisas-hombre", "link#camisas-hombre"]
+  },
+  "image#camisas-hombre": {
+    "props": {
+      "src": "assets/camisas-hombre.png"
+    }
+  },
+  "link#camisas-hombre": {
+    "props": {
+      "href": "#",
+      "label": "CAMISAS"
+    }
+  }
+
+}
