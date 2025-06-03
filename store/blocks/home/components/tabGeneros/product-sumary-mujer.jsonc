@@ -9,6 +9,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
+      "flex-layout.row#product-price_shelf-global",
       "vitrina-custom"
     ]
   },
@@ -21,5 +22,13 @@
       },
       "infinite": true
     }
+  },
+  "flex-layout.row#product-price_shelf-global": {
+    "props": {
+      "blockClass": "product-price_shelf-global",
+      "colSizing": "auto",
+      "colJustify": "left"
+    },
+    "children": ["product-selling-price", "product-list-price"]
   }
 }

@@ -1,0 +1,18 @@
+.flexRow--container-lapidas {
+    overflow: scroll;
+}
+
+@media (min-width: 1024px) {
+    .flexCol--container-home {
+        gap: 65px;
+    }
+
+    .flexRow--container-lapidas {
+        overflow: auto;
+    }
+
+    .flexRowContent--container-lapidas {
+       gap: 71px;
+       justify-content: center;
+    }
+}

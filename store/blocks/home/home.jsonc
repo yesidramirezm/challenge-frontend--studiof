@@ -1,24 +1,20 @@
 {
-  "store.home": { 
-    "blocks": [
-      "flex-layout.row#container-home"
-    ]
+  "store.home": {
+    "blocks": ["flex-layout.row#container-home"]
   },
- "flex-layout.row#container-home": {
-   "children": ["flex-layout.col#container-home"],
-   "props": {
-     
-   }
- },
- "flex-layout.col#container-home": {
-   "children": [
-    "banner-promo",
-     "list-context.image-list#principales",
-     "tab-layout#generos"
-   ],
-   "props": {
-     
-   }
- }
-  
+  "flex-layout.row#container-home": {
+    "title": "Container home",
+    "children": ["flex-layout.col#container-home"],
+    "props": {}
+  },
+  "flex-layout.col#container-home": {
+    "children": [
+      "banner-promo",
+      "list-context.image-list#principales",
+      "tab-layout#generos"
+    ],
+    "props": {
+      "blockClass": "container-home"
+    }
+  }
 }

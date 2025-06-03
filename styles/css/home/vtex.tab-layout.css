@@ -1,0 +1,43 @@
+.listContainer--container-tabs-list {
+    align-items: center;
+    justify-content: space-evenly;
+    height: 54px;
+}
+
+.listContainer--container-tabs-list .listItem {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+
+.listItemActive {
+    margin: 0rem !important;
+}
+
+.listContainer--container-tabs-list :global(.vtex-button) {
+    background-color: transparent;
+    border: none;
+}
+
+.listContainer--container-tabs-list :global(.vtex-button__label) {
+    color: #000;
+    font-size: 15px;
+}
+
+
+
+@media (min-width: 1024px) {
+    .listContainer--container-tabs-list {
+        height: 78px;
+        background-color: #D9D9D9;
+    }
+
+    .listContainer--container-tabs-list :global(.vtex-button__label) {
+        font-size: 32px;
+    }
+
+    .contentItem--containet-content {
+        padding-top: 64px;
+    }
+}

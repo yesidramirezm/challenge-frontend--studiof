@@ -6,6 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
+    "title": "Header desktop",
     "children": [
       "sticky-layout#desktop"
     ]
@@ -53,6 +54,7 @@
     }
   },
   "header-layout.mobile": {
+    "title": "Header mobile",
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {

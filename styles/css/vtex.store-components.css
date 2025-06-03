@@ -1,0 +1,12 @@
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: none;
+}
+
+@media (min-width: 1920px) {
+    .container {
+        padding-left: .25rem !important;
+        padding-right: .25rem !important;
+    }
+}

@@ -1,15 +1,21 @@
 {
   "tab-layout#generos": {
-    "children": ["tab-list#home", "tab-content#home"],
+    "title": "container tabs",
+    "children": ["tab-list#generos", "tab-content#generos"],
     "props": {
-      "blockClass": "home",
+      "blockClass": "container-generos",
       "defaultActiveTabId": "hombre"
     }
   },
-  "tab-list#home": {
-    "children": ["tab-list.item#hombre", "tab-list.item#mujer"]
+  "tab-list#generos": {
+    "title": "Container tab list",
+    "children": ["tab-list.item#hombre", "tab-list.item#mujer"],
+    "props": {
+      "blockClass": "container-tabs-list"
+    }
   },
   "tab-list.item#hombre": {
+    "title": "Tab hombre",
     "props": {
       "tabId": "hombre",
       "label": "Hombre",
@@ -17,33 +23,36 @@
     }
   },
   "tab-list.item#mujer": {
+    "title": "Tab mujer",
     "props": {
       "tabId": "mujer",
       "label": "Mujer"
     }
   },
-  "tab-content#home": {
+  "tab-content#generos": {
+    "title": "Content tab",
     "children": ["tab-content.item#hombre", "tab-content.item#mujer"]
   },
   "tab-content.item#hombre": {
     "children": [
       "flex-layout.row#lapidas-hombre",
       "list-context.image-list#secundarios-hombre",
-       "list-context.product-list#hombre"
-      
+      "list-context.product-list#hombre"
     ],
     "props": {
-      "tabId": "hombre"
+      "tabId": "hombre",
+      "blockClass": "containet-content"
     }
   },
   "tab-content.item#mujer": {
     "children": [
       "flex-layout.row#lapidas-mujer",
       "list-context.image-list#secundarios",
-       "list-context.product-list#mujer"
+      "list-context.product-list#mujer"
     ],
     "props": {
-      "tabId": "mujer"
+      "tabId": "mujer",
+      "blockClass": "containet-content"
     }
   }
 }

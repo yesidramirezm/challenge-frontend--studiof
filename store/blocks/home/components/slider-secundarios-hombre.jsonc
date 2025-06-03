@@ -1,9 +1,9 @@
 {
  "list-context.image-list#secundarios-hombre": {
+  "title": "slider Secundarios hombres",
     "children": ["slider-layout#images-hombre"],
     "props": {
       "preload": true,
-      "height": 650,
       "images": [
         {
           "loading": "eager",
@@ -21,6 +21,7 @@
 
   "slider-layout#images-hombre": {
     "props": {
+      "blockClass":"container-slider-secundario",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

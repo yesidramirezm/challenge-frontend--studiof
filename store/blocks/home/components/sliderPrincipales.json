@@ -1,9 +1,9 @@
  {
  "list-context.image-list#principales": {
+  "title": "Carousel principal",
     "children": ["slider-layout#demo-images"],
     "props": {
       "preload": true,
-      "height": 650,
       "images": [
         {
           "loading": "eager",
@@ -20,13 +20,16 @@
   },
 
   "slider-layout#demo-images": {
+    "title": "Slider carousel",
     "props": {
+      "blockClass": "container-slider-principal",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
-      "infinite": true
+      "infinite": true,
+      "showPaginationDots": "never" 
     }
   }
 }

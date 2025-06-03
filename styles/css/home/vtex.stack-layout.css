@@ -1,0 +1,15 @@
+.stackContainer--container-stack .stackItem--container-stack:last-child {
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    bottom: 37px;
+    top: auto;
+}
+
+.stackContainer--container-stack :global(.vtex-store-link-0-x-link) {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 10px;
+}

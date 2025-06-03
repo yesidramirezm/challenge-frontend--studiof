@@ -1,19 +1,30 @@
 {
 
   "flex-layout.row#lapidas-hombre": {
+    "title": "Container lapidas",
     "children": [
       "stack-layout#zapatos-hombre",
       "stack-layout#pantalones-hombre",
       "stack-layout#camisas-hombre"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "container-lapidas",
+      "preserveLayoutOnMobile":true,
+      "colSizing": "auto",
+      "fullWidth": true
+    }
   },
   "stack-layout#zapatos-hombre": {
-    "children": ["image#zapatos-hombre", "link#zapatos-hombre"]
+    "title": "Container stack",
+    "children": ["image#zapatos-hombre", "link#zapatos-hombre"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#zapatos-hombre": {
     "props": {
-      "src": "assets/zapatos-hombre.png"
+      "src": "assets/zapatos-hombre.png",
+      "blockClass":"image-lapida"
     }
   },
   "link#zapatos-hombre": {
@@ -23,11 +34,16 @@
     }
   },
   "stack-layout#pantalones-hombre": {
-    "children": ["image#pantalones-hombre", "link#pantalones-hombre"]
+     "title": "Container stack",
+    "children": ["image#pantalones-hombre", "link#pantalones-hombre"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#pantalones-hombre": {
     "props": {
-      "src": "assets/pantalones-hombre.png"
+      "src": "assets/pantalones-hombre.png",
+      "blockClass":"image-lapida"
     }
   },
   "link#pantalones-hombre": {
@@ -37,11 +53,16 @@
     }
   },
   "stack-layout#camisas-hombre": {
-    "children": ["image#camisas-hombre", "link#camisas-hombre"]
+     "title": "Container stack",
+    "children": ["image#camisas-hombre", "link#camisas-hombre"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#camisas-hombre": {
     "props": {
-      "src": "assets/camisas-hombre.png"
+      "src": "assets/camisas-hombre.png",
+      "blockClass":"image-lapida"
     }
   },
   "link#camisas-hombre": {

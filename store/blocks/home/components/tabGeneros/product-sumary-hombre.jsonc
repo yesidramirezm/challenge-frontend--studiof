@@ -8,6 +8,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
+      "flex-layout.row#product-price_shelf-global",
       "vitrina-custom"
     ]
   },

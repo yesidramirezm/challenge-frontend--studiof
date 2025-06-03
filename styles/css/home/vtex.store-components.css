@@ -1,0 +1,10 @@
+.imageElement--image-lapida {
+    min-width: 400px;
+    width: 400px;
+}
+@media (min-width:1024px) {
+    .imageElement--image-lapida {
+         width: 466px;
+    }
+    
+}

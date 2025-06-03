@@ -1,0 +1,12 @@
+.imageElement--container-slider-secundario,
+.imageElement--container-slider-principal {
+    max-height: none !important;
+    height: auto;
+}
+
+@media (min-width:1024px) {
+    .sliderLayoutContainer--container-slider-secundario {
+        margin-top: 68px;
+        margin-bottom: 41px;
+    }
+}

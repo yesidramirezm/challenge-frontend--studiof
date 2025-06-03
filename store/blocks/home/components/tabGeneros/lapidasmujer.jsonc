@@ -1,18 +1,29 @@
 {
   "flex-layout.row#lapidas-mujer": {
+    "title": "Container lapidas",
     "children": [
       "stack-layout#zapatos",
       "stack-layout#pantalones",
       "stack-layout#camisas"
     ],
-    "props": {}
+    "props": {
+      "blockClass": "container-lapidas",
+      "preserveLayoutOnMobile":true,
+      "colSizing": "auto",
+      "fullWidth": true
+    }
   },
   "stack-layout#zapatos": {
-    "children": ["image#zapatos", "link#zapatos"]
+     "title": "Container stack",
+    "children": ["image#zapatos", "link#zapatos"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#zapatos": {
     "props": {
-      "src": "assets/zapatos.png"
+      "src": "assets/zapatos.png",
+      "blockClass":"image-lapida"
     }
   },
   "link#zapatos": {
@@ -22,11 +33,17 @@
     }
   },
   "stack-layout#pantalones": {
-    "children": ["image#pantalones", "link#pantalones"]
+     "title": "Container stack",
+    "children": ["image#pantalones", "link#pantalones"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#pantalones": {
     "props": {
-      "src": "assets/pantalones.png"
+      "src": "assets/pantalones.png",
+      "blockClass":"image-lapida"
+
     }
   },
   "link#pantalones": {
@@ -36,11 +53,16 @@
     }
   },
   "stack-layout#camisas": {
-    "children": ["image#camisas", "link#camisas"]
+     "title": "Container stack",
+    "children": ["image#camisas", "link#camisas"],
+    "props": {
+      "blockClass":"container-stack"
+    }
   },
   "image#camisas": {
     "props": {
-      "src": "assets/camisas.png"
+      "src": "assets/camisas.png",
+      "blockClass":"image-lapida"
     }
   },
   "link#camisas": {
