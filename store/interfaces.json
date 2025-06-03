@@ -1,5 +1,8 @@
 {
     "banner-promo":{
         "component": "BannerPromocional"
+    },
+    "vitrina-custom":{
+        "component": "VitrinaCustom"
     }
 }

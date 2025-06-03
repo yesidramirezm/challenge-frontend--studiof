@@ -1,0 +1,25 @@
+{
+    
+  "list-context.product-list#mujer": {
+    "blocks": ["product-summary.shelf#mujer"], 
+    "children": ["slider-layout#carousel-mujer"]
+  },
+
+  "product-summary.shelf#mujer": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "vitrina-custom"
+    ]
+  },
+   "slider-layout#carousel-mujer": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

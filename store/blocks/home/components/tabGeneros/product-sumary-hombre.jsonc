@@ -1,0 +1,24 @@
+{
+  "list-context.product-list#hombre": {
+    "blocks": ["product-summary.shelf#hombre"],
+    "children": ["slider-layout#carousel-hombre"]
+  },
+
+  "product-summary.shelf#hombre": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "vitrina-custom"
+    ]
+  },
+  "slider-layout#carousel-hombre": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

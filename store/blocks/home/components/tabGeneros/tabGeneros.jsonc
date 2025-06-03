@@ -28,7 +28,9 @@
   "tab-content.item#hombre": {
     "children": [
       "flex-layout.row#lapidas-hombre",
-      "list-context.image-list#secundarios-hombre"
+      "list-context.image-list#secundarios-hombre",
+       "list-context.product-list#hombre"
+      
     ],
     "props": {
       "tabId": "hombre"
@@ -37,7 +39,8 @@
   "tab-content.item#mujer": {
     "children": [
       "flex-layout.row#lapidas-mujer",
-      "list-context.image-list#secundarios"
+      "list-context.image-list#secundarios",
+       "list-context.product-list#mujer"
     ],
     "props": {
       "tabId": "mujer"
