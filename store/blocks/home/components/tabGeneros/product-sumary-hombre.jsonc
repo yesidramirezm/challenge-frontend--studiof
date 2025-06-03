@@ -1,5 +1,6 @@
 {
   "list-context.product-list#hombre": {
+    "title": "container pruductos ",
     "blocks": ["product-summary.shelf#hombre"],
     "children": ["slider-layout#carousel-hombre"]
   },

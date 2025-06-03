@@ -1,6 +1,7 @@
 {
     
   "list-context.product-list#mujer": {
+    "title": "container pruductos ",
     "blocks": ["product-summary.shelf#mujer"], 
     "children": ["slider-layout#carousel-mujer"]
   },
